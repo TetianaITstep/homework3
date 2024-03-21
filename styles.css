@@ -1,0 +1,167 @@
+*{
+    font-family:  "Rubik", sans-serif;
+    list-style-type: none;
+}
+
+.main{
+    margin-left: 150px; 
+}
+.main-text{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+    color: #0B132A;
+}
+
+.paragraph{
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.btn{
+    color: white;
+    background-color: #F53838;
+    width: 250px;
+    height: 60px;
+    top: 310px;
+    left: 145px;
+    gap: 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+}
+
+.btn:hover{
+    background-color: #0B132A; 
+    transform: scale(1.1); 
+    transition: background-color 0.3s, transform 0.3s; 
+    cursor: pointer;
+}
+
+.btn-text{
+    font-size: 16px;
+}
+
+.second-paragraph{
+   color: #0B132A ; 
+   width: 383.41px;
+   font-size: 35px;
+   font-weight: 500;
+   margin-top: 58.23px;
+
+
+}
+
+
+.list {
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-top: 20px;
+}
+
+.list li {
+    padding: 15px;
+    padding-left: 40px; /* Adjust the left padding to increase space */
+    position: relative; 
+    color: #4F5665;
+
+}
+
+.list li::before {
+    content: url('./img/Group\ 1120.svg'); 
+    width: 24px;
+    height: 24px;
+    position: absolute; 
+    left: 0; 
+    top: 50%; /* Position the icon vertically centered */
+    transform: translateY(-50%); /* Adjust the vertical position */
+    margin-left: 0px; /* Adjust this value to further increase space */
+}
+
+.last {
+    margin-left: 150px;
+    border: 1px solid #CCCCCC; /* Gray border */
+    border-radius: 10px; /* Border radius */
+    padding: 20px;
+    margin-right: 850px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 50px;
+}
+
+/* Additional styles for the list */
+.list-2 {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.list-2 li {
+    padding: 15px;
+    padding-left: 40px;
+    position: relative;
+    color: #4F5665;
+}
+
+.list-2 li::before {
+    content: url('./img/jam_check.svg');
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0px;
+}
+
+.last-button {
+    background-color: white;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 177.88px;
+    height: 45px;
+    top: 1420px;
+    left: 214.06px;
+   
+}
+
+.last-button select {
+    margin: 0;
+}
+
+.last-button:hover {
+    background-color: #F53838;
+    color: white;
+    cursor: pointer;
+}
+
+.select {
+    padding: 13px 62.94px;
+    font-size: 16px;
+
+}
+
+.free {
+    font-size: 25px;
+    color: #0B132A;
+    font-weight: 500;
+    padding-left: 70px;
+}
+
+.free-plan {
+    color: #0B132A;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+.two-phrases {
+    padding: 30px;
+}
